@@ -1,0 +1,6 @@
+build
+dist
+war-distribution
+build.properties
+
+/.idea/
