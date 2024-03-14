@@ -1,4 +1,4 @@
 FROM openjdk:8
 EXPOSE  8080
-ADD target/*.jar /*.jar
-ENTRYPOINT ["java", "-jdk", "/*.jar"]
+ADD build/jar/ant-sample.jar ant-sample.jar
+ENTRYPOINT ["java", "-jdk", "/ant-sample.jar"]
